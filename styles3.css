@@ -1,0 +1,61 @@
+body{
+  background-color: #f1f1f1;
+  margin: 0px;
+  padding: 0px;
+}
+#navbar{
+  display:flex;
+  flex-direction: space-between;
+  align-items: center;
+}
+.nav-link{
+  text-decoration: none;
+  color: black;
+  padding: 10px 25px;
+  float: right;
+  margin-left: 20px;
+}
+#header{
+  background-color: #f1f1f1;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+#header-img{
+  height: 25px; /* Adjust image height as needed */
+  width: auto; 
+}
+.nav-link:hover{
+  text-decoration: none;
+}
+.handcraft{
+  text-align: center;
+}
+.button1{
+    text-align: center;  /* Center the content within the container */
+    margin: 10px auto;  /* Add some margin for spacing */
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 400px;
+  }
+  .button1 input[type="text"] {
+    background-color: #f1f1f1;  /* Light gray background */
+    border: none;  /* Remove default border */
+    border-radius: 4px; /* Rounded corners */
+    padding: 10px 20px; /* Add some padding */
+    width: 100%;  /* Stretch the input to fill the container width */
+    box-sizing: border-box;  /* Include padding in the width calculation */
+    height:
+  }
+  .button1 button{
+      background-color:rgba(255, 166, 0, 0.774);  /* Dark purple background */
+      color: white;  /* White text color */
+      border: none;  /* Remove default border */
+      border-radius: 4px; /* Rounded corners */
+      padding: 5px 10px; /* Add some padding */
+      font-size: 12px;  /* Increase font size a bit */
+      cursor: pointer;  /* Set cursor to pointer on hover */
+      width:150px;
+      margin-top:15px;
+    }

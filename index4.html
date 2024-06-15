@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles4.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-div">
+        <div class="line">
+        </div>
+        <div class="sub-container">
+        </div>
+        <div style="margin:0px 40px;"> 
+          <h3>Responsive<br> Registration<br> Form</h3>
+        </div>
+      </div>
+      <div class="form">
+        <form action="https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-css-animation-by-building-a-ferris-wheel" method="POST">
+          <h1>Registration Form</h1>
+          <label for="fullname">Full Name</label><br>
+          <input type="text" id="fullname" placeholder="Enter Full Name" required><br>
+          <label for="email-address">Email Address</label><br>
+          <input type="email" id="email-address" placeholder="Enter Email Address"><br>
+          <label for="phone">Mobile Number</label>
+         <br> 
+         <input type="tel" id="phone" placeholder="+250780570632" pattern="[0-9]{10}" maxlength="10"> <br>
+          <label for="date-of-birth">Birth Date</label> <br>
+          <input type="date" id="date-of-birth"><br> 
+          <label for="gender">Gender</label><br>
+          <input type="radio" id="gender" name="gender">Male
+          <input type="radio" id="gender" name="gender">Female
+          <input type="radio" id="gender" name="gender"> Prefer not to say<br>
+          <label for="address">Address</label><br>
+          <input type="text" id="address" placeholder="Enter address"><br>
+          <select>
+            <option>Choose A Currency</option>
+            <option>USD</option>
+            <option>EUR</option>
+            <option>JPY</option>
+            <option>RWF</option>
+            <option>KSH</option>
+          </select>
+          <input type="text" placeholder="Enter Postal Code"><br>
+          <input type="submit">
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

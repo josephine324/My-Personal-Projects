@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+}
+#navbar {
+  overflow: hidden;
+  background-color:burlywood ;
+  position: fixed;
+  top: 0;
+  width: 250px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+#navbar a {
+  float: left; /* Remove from original */
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 25px;
+  text-decoration: underline;
+  font-size: 16px;
+}
+#navbar a:hover {
+  background-color: green;
+  color: black;
+}
+
+#main-doc{
+    margin-left: 300px;
+  }
+  
+  /* Style the 'active' link */
+.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+#variables h1{
+  display: block;
+}
+code{
+  background-color: grey;
+  display: block;
+  border-radius: 5px;
+  height: 75px;
+}
+code p{
+  margin: 0px 25px;
+  padding-top: 15px;
+}
+@media screen and (max-width: 768px) {
+  #navbar{
+    padding: 5px;
+    display: block;
+  }
+  #navbar a {
+    font-size:14px;
+    padding: 5px 10px;
+  }
+}
+@media screen and(min-width:1200px){
+  #navbar{
+    padding: 10px;
+    margin: 10px 15px;
+  }
+}
